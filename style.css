@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffdd57; /* Ajoute un effet de couleur au survol */
+}
+
+/* Sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+/* About Me Section */
+#about {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Container for image and text */
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Style for the image */
+#about img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+/* Paragraph in the About section */
+.about-content p {
+    max-width: 70%; /* Limit the width to avoid stretching */
+    text-align: justify;
+}
+
+/* Form Buttons */
+input[type="submit"], input[type="reset"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 4px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column; /* Stack image and text vertically */
+        align-items: center;
+    }
+
+    #about img {
+        margin: 0 0 10px 0; /* Adjust margin for smaller screens */
+    }
+
+    .about-content p {
+        max-width: 100%; /* Allow text to take full width on small screens */
+    }
+}
