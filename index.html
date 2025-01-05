@@ -3,6 +3,8 @@
   <head>
     <title>Adam Tahir's Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
   </head>
   <body>
     <header>
@@ -13,7 +15,7 @@
         <nav>
           <a href="#home">Home</a> &nbsp; | &nbsp;
           <a href="#about">About</a> &nbsp; | &nbsp;
-          <a href="#work">Work</a> &nbsp; | &nbsp;
+          <a href="#projects">Projects</a> &nbsp; | &nbsp;
           <a href="#resume">Resume</a> &nbsp; | &nbsp;
           <a href="#contact">Contact</a>
         </nav>
@@ -24,9 +26,7 @@
       <section id="home">
         <center>
           <h1>Hello!</h1>
-          <h2>
-            I'm Adam Tahir, a student in the web development field at GomyCode.
-          </h2>
+          <h2>I'm Adam Tahir, a Front-End Developer.</h2>
         </center>
       </section>
 
@@ -48,28 +48,10 @@
           of the industry. I am eager to learn, collaborate with my peers, and
           contribute to innovative projects that can have a positive impact.
         </p>
-        <center>
-          <img
-            src="adam_photo.jpeg"
-            alt="Adam Tahir's Photo"
-            width="200"
-            height="270"
-          />
-        </center>
         <table cellpadding="10" cellspacing="0" style="font-size: 18px">
           <tr>
             <td style="font-weight: bold">Name:</td>
             <td>Adam Tahir</td>
-          </tr>
-          <tr>
-            <td style="font-weight: bold">Date of birth:</td>
-            <td>July 16, 2006</td>
-          </tr>
-          <tr>
-            <td style="font-weight: bold">Address:</td>
-            <td>
-              10 Rue Ain El Ati, Residence El Nasim, Bourgogne, Casablanca, Anfa
-            </td>
           </tr>
           <tr>
             <td style="font-weight: bold">Email:</td>
@@ -82,105 +64,131 @@
         </table>
       </section>
 
-      <section id="work">
-        <h2>Work Experience</h2>
-        <ul>
-          <li>
-            <strong>Mini-market Assistant</strong> – Worked at my father's
-            mini-market during the summer, assisting with customer service and
-            stock management.
-          </li>
-          <li>
-            <strong>Bookshop Assistant</strong> – Worked in a bookshop in the
-            summer of 2023, handling inventory and sales.
-          </li>
-        </ul>
-      </section>
+      <section id="projects">
+        <center>
+            <h2>My Projects</h2>
+        </center>
+        <div class="project-container">
+            <div class="project">
+                <h3>Project 1: Les Recettes de Maman </h3>
+                <p>
+                    A website dedicated to baking and cooking enthusiasts, "Les Recettes de Maman" offers homemade recipes crafted with care and premium ingredients. Each creation ensures an authentic and memorable taste experience. Whether seeking sweet treats or culinary inspiration, visitors can explore a variety of delights and conveniently order high-quality homemade products to enjoy at home.
+                </p>
+                <button><a href="https://adam-t16.github.io/LES-RECETTES-DE-MAMAN/" target="_blank">View Project</a></button>
+            </div>
+            <div class="project">
+                <h3>Project 2: Le Labyrinthe des Idées</h3>
+                <p>
+                    Le Labyrinthe des Idées is an interactive platform for logic enthusiasts and puzzle lovers. It offers a variety of challenges, from mathematics to psychology and history, designed to stimulate critical thinking and curiosity. Join our community to solve puzzles, share your own, and embark on an intellectual journey.
+                </p>
+                <button><a href="https://adam-t16.github.io/Labyrinthe-des-Idees/" target="_blank">View Project</a></button>             
+            </div>
+            <div class="project">
+                <h3>Project 3: Memory Card Matching Game</h3>
+                <p>
+                    A memory card matching game where players flip cards to find matching pairs. The game includes a timer, score tracker, and a restart feature. The game ends when all pairs are matched, and a congratulatory message is displayed.
+                </p>
+                <button><a href="https://adam-t16.github.io/CARD_MATCHING/" target="_blank">View Project</a></button>
+            </div>
+        </div>
+    </section>
+    
 
       <section id="resume">
         <h2>Resume</h2>
-        <h3>Education Information:</h3>
-        <table>
-          <tr>
-            <td style="font-weight: bold">High School Diploma:</td>
-            <td>Physical Sciences and Chemistry stream, French option.</td>
-          </tr>
-          <tr>
-            <td style="font-weight: bold">Program 1:</td>
-            <td>
-              First year at EMSI, integrated preparatory class to become a
-              computer engineer.
-            </td>
-          </tr>
-          <tr>
-            <td style="font-weight: bold">Program 2:</td>
-            <td>
-              First year at university, majoring in Accounting, Finance, and
-              Taxation.
-            </td>
-          </tr>
-        </table>
-
-        <h3>Skills:</h3>
-        <ol>
-          <li>Photoshop</li>
-          <li>Teamwork</li>
-          <li>Problem-Solving</li>
-        </ol>
-
+          <h3>Education and Skills</h3>
+          <div class="container">
+            <div class="card">
+              <h3>High School Diploma (2024) </h3>
+              <h4>Physical Sciences and Chemistry Stream</h4>
+              <p>French option.</p>
+            </div>
+            <div class="card">
+              <h3>etudes superieures en informatique (En cours) </h3>
+              <h4>Integrated Preparatory Class at EMSI</h4>
+              <p>First year to become a computer engineer.</p>
+            </div>
+            <div class="card">
+              <h3>etudes superieures en gestion (En cours) </h3>
+              <h4>Accounting, Finance, and Taxation</h4>
+              <p>First year at university majoring in these fields.</p>
+            </div>
+            <div class="card">
+              <h3>Certificate in Web Development Essentials (2024) </h3>
+              <h4>Web Development</h4>
+              <p>Focused on the fundamentals of HTML, CSS, and JavaScript.</p>
+            </div>
+          </div>
+          <h3>Skills:</h3>
+          <div class="container">
+              <div class="card">
+                  <h3>Creation des interfaces web</h3>
+                  <h4>Using HTML, CSS, and JavaScript</h4>
+              </div>
+              <div class="card">
+                  <h3>Creation des présentations</h3>
+                  <h4>PowerPoint</h4>
+              </div>
+              <div class="card">
+                  <h3>Creation des logos</h3>
+                  <h4>Design tools (e.g., Photoshop, Illustrator)</h4>
+              </div>
+              <div class="card">
+                  <h3>Problem-Solving</h3>
+                  <h4>Analytical thinking and troubleshooting</h4>
+              </div>
+              <div class="card">
+                  <h3>Teamwork</h3>
+                  <h4>Collaborative project work and communication</h4>
+              </div>
+          </div>
+          
         <h3>Language Skills:</h3>
-        <ol>
-          <li>French: Proficient</li>
-          <li>English: Intermediate</li>
-          <li>Arabic: Native</li>
-        </ol>
-      </section>
+<div class="container">
+    <div class="card">
+        <h3>French</h3>
+        <h4>Proficient</h4>
+    </div>
+    <div class="card">
+        <h3>English</h3>
+        <h4>Intermediate</h4>
+    </div>
+    <div class="card">
+        <h3>Arabic</h3>
+        <h4>Native</h4>
+    </div>
+</div>
 
-      <section id="connect">
+      </section>
+      <section id="contact">
         <center>
-          <h2>Connect with Me</h2>
-          <p>
-            <a
-              href="https://www.instagram.com/adamt_16/profilecard/?igsh=cmVqd2NnY3V0c3Vj"
-              target="_blank"
-              >Instagram</a
-            >
-            &nbsp; | &nbsp;
+        <h2>Contact Me</h2>
+        <p>Connect with me on social media:</p>
+      </center>
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/adamt_16/profilecard/?igsh=cmVqd2NnY3V0c3Vj"
+            target="_blank"
+            class="social-btn instagram"
+            >Instagram</a
+          >
+          <a
+            href="https://wa.me/qr/LPB7DFLFGTHXB1"
+            target="_blank"
+            class="social-btn whatsapp"
+            >WhatsApp</a>
             <a
               href="https://www.linkedin.com/in/adam-tahir-095ba9324/"
               target="_blank"
+              class="social-btn linkedin"
               >LinkedIn</a
             >
-            &nbsp; | &nbsp;
-            <a href="https://wa.me/qr/LPB7DFLFGTHXB1" target="_blank"
-              >WhatsApp</a
-            >
-          </p>
-        </center>
-      </section>
-
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="#" method="POST">
-          <label for="name">Name:</label><br />
-          <input type="text" id="name" name="name" required /><br /><br />
-
-          <label for="email">Email:</label><br />
-          <input type="email" id="email" name="email" required /><br /><br />
-
-          <label for="message">Message:</label><br />
-          <textarea id="message" name="message" rows="4" required></textarea
-          ><br /><br />
-
-          <input type="submit" value="Send" />
-          <input type="reset" value="Cancel" />
-        </form>
+        </div>
       </section>
     </main>
 
     <footer>
       <p>&copy; 2024 Adam Tahir. All rights reserved.</p>
-      <button onclick="window.location.href='#home';">Go to Home</button>
     </footer>
   </body>
 </html>
